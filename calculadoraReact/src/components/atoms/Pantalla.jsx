@@ -1,14 +1,15 @@
 // eslint-disable-next-line react/prop-types
-function Pantalla ({Numeros, Operaciones, Resultado}) {
+function Pantalla({ numeros, resultado }) {
     return (
-        <div className="pantalla">
-            <div className="operaciones-numeros">
-                {Numeros} {Operaciones}
-            </div>
-            <div className="resultado">
-                {Resultado}
-            </div>
+      <div className="pantalla">
+        <div className="operaciones-numeros">
+          {numeros}  
         </div>
+        <div className="resultado">
+          {resultado}  
+        </div>
+      </div>
     );
-}
-export default Pantalla;
+  }
+  
+  export default Pantalla;
